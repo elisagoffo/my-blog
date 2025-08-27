@@ -1,6 +1,8 @@
+/* Background */
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   background-size: cover;
+  font-family: Arial, sans-serif;
   color: white;
 }
 
@@ -9,30 +11,26 @@ a {
 }
 
 /* Header colors */
-.header-primary {
-  color: #FF6B6B;  /* bright red-ish */
-}
+.header-primary { color: #FF6B6B; }     /* Example: main header */
+.header-secondary { color: #4ECDC4; }   /* Example: section header */
+.header-tertiary { color: #FFE66D; }    /* Example: subheaders */
 
-.header-secondary {
-  color: #4ECDC4;  /* teal */
-}
+/* Paragraph / content colors */
+.content-primary { color: black; }    /* main content */
+.content-secondary { color: #D3D3D3; }  /* secondary content */
+.content-tertiary { color: #B0E0E6; }   /* tertiary content */
 
-.header-tertiary {
-  color: #FFE66D;  /* yellow */
-}
+/* Links */
+.link-primary { color: #FFD700; text-decoration: none; }  /* gold link */
+.link-secondary { color: #FF69B4; text-decoration: none; } /* pink link */
+.link-primary:hover, .link-secondary:hover { text-decoration: underline; }
 
-/* Content / paragraph colors */
-.content-primary {
-  color: black;  
-}
+/* Misc */
+.navbar-dark .navbar-nav .nav-link { color: #FFFFFF; } /* keep navbar links visible */
 
-.content-secondary {
-  color: #D3D3D3;  /* light gray */
-}
 
-.content-link {
-  color: #FFD700;  /* gold for links */
-}
+
+
 
 
 
