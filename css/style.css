@@ -7,3 +7,32 @@ body {
 a {
   text-decoration: none;
 }
+
+/* Header colors */
+.header-primary {
+  color: #FF6B6B;  /* bright red-ish */
+}
+
+.header-secondary {
+  color: #4ECDC4;  /* teal */
+}
+
+.header-tertiary {
+  color: #FFE66D;  /* yellow */
+}
+
+/* Content / paragraph colors */
+.content-primary {
+  color: black;  
+}
+
+.content-secondary {
+  color: #D3D3D3;  /* light gray */
+}
+
+.content-link {
+  color: #FFD700;  /* gold for links */
+}
+
+
+
