@@ -11,22 +11,23 @@ a {
 }
 
 /* Header colors */
-.header-primary { color: #FF6B6B; }     /* Example: main header */
-.header-secondary { color: #4ECDC4; }   /* Example: section header */
-.header-tertiary { color: #FFE66D; }    /* Example: subheaders */
+.header-primary { color: #fa2fb7; }     /* Main header; magenta intenso */
+.header-secondary { color: #4bd5fa; }   /* Section header; azzurro intenso */
+.header-tertiary { color: black; }    /* Subheaders */
 
 /* Paragraph / content colors */
 .content-primary { color: black; }    /* main content */
-.content-secondary { color: #D3D3D3; }  /* secondary content */
-.content-tertiary { color: #B0E0E6; }   /* tertiary content */
+.content-secondary { color: black; }  /* secondary content */
+.content-tertiary { color: black; }   /* tertiary content */
 
 /* Links */
-.link-primary { color: #FFD700; text-decoration: none; }  /* gold link */
-.link-secondary { color: #FF69B4; text-decoration: none; } /* pink link */
+.link-primary { color: black; text-decoration: none; }  /*  */
+.link-secondary { color: black; text-decoration: none; } /*  */
 .link-primary:hover, .link-secondary:hover { text-decoration: underline; }
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: #FFFFFF; } /* keep navbar links visible */
+
 
 
 
