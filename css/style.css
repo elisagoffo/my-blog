@@ -28,35 +28,33 @@ a {
   color: #cccccc;              /* lighter gray text */
 }
 
+<!-- center content -->
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;   /* enough height to center nicely */
+  text-align: center;
+}
+
 /* Header colors */
 .header-primary { color: #fa2fb7; }     /* Main header; magenta intenso */
 .header-secondary { color: #4bd5fa; }   /* Section header; azzurro intenso */
 .header-tertiary { color: black; }    /* Subheaders */
 
 /* Paragraph / content colors */
-.content-primary { color: black; 
-                 text-align: center;
-                 }    /* main content */
-.content-secondary { color: black; 
-                   text-align: center;
-                   }  /* secondary content */
-.content-tertiary { color: black; 
-                  text-align: center;
-                  }   /* tertiary content */
+.content-primary { color: black; }    /* main content */
+.content-secondary { color: black; }  /* secondary content */
+.content-tertiary { color: black; }   /* tertiary content */
 
 /* Links */
-.link-primary { color: black; text-decoration: none; 
-              text-align: center;
-              }  /*  */
-.link-secondary { color: black; text-decoration: none; 
-                text-align: center;
-                } /*  */
-.link-primary:hover, .link-secondary:hover { text-decoration: underline; 
-                                           text-align: center;
-                                           }
+.link-primary { color: black; text-decoration: none; }  /*  */
+.link-secondary { color: black; text-decoration: none; } /*  */
+.link-primary:hover, .link-secondary:hover { text-decoration: underline; }
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: black; } /* keep navbar links visible */
+
 
 
 
