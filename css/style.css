@@ -13,9 +13,6 @@ a {
 /* Page header / hero section */
 .page-header {
   background-color: black;   /* black by default */
-  /* If I want a background image:
-  background: url("images/header-bg.jpg") no-repeat center center;
-  background-size: cover; */
   color: #fa2fb7;              /* magenta intenso */
   padding: 4rem 1rem;          /* spacing */
   text-align: center;          /* center text */
@@ -48,6 +45,7 @@ a {
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: #FFFFFF; } /* keep navbar links visible */
+
 
 
 
