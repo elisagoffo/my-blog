@@ -13,7 +13,7 @@ a {
 /* Page header / hero section */
 .page-header {
   background-color: #000000;   /* black by default */
-  color: #ffffff;              /* white text */
+  color: #fa2fb7;              /* magenta intenso */
   padding: 4rem 1rem;          /* spacing */
   text-align: center;          /* center text */
 }
@@ -45,6 +45,7 @@ a {
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: #FFFFFF; } /* keep navbar links visible */
+
 
 
 
