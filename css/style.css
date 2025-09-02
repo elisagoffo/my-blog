@@ -13,7 +13,7 @@ a {
 /* Page header / hero section */
 .page-header {
   background-color: black;   /* black by default */
-  color: #fa2fb7;              /* magenta intenso */
+  color: white;              /* magenta intenso */
   padding: 4rem 1rem;          /* spacing */
   text-align: center;          /* center text */
 }
@@ -39,7 +39,7 @@ a {
 
 /* Header colors */
 .header-primary { color: #fa2fb7; }     /* Main header; magenta intenso */
-.header-secondary { color: #4bd5fa; }   /* Section header; azzurro intenso */
+.header-secondary { color: Black; }   /* Section header; azzurro intenso */
 .header-tertiary { color: black; }    /* Subheaders */
 
 /* Paragraph / content colors */
@@ -54,6 +54,7 @@ a {
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: white; } /* keep navbar links visible */
+
 
 
 
