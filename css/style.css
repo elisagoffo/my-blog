@@ -10,6 +10,24 @@ a {
   text-decoration: none;
 }
 
+/* Page header / hero section */
+.page-header {
+  background-color: #000000;   /* black by default */
+  color: #ffffff;              /* white text */
+  padding: 4rem 1rem;          /* spacing */
+  text-align: center;          /* center text */
+}
+
+.page-header h1 {
+  font-size: 3rem;             /* big title */
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 1.25rem;          /* description smaller */
+  color: #cccccc;              /* lighter gray text */
+}
+
 /* Header colors */
 .header-primary { color: #fa2fb7; }     /* Main header; magenta intenso */
 .header-secondary { color: #4bd5fa; }   /* Section header; azzurro intenso */
@@ -27,6 +45,7 @@ a {
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: #FFFFFF; } /* keep navbar links visible */
+
 
 
 
