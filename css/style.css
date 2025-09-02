@@ -38,8 +38,8 @@ a {
 }
 
 /* Header colors */
-.header-primary { color: #fa2fb7; }     /* Main header; magenta intenso */
-.header-secondary { color: Black; }   /* Section header; azzurro intenso */
+.header-primary { color: black; }     /* Main header; magenta intenso */
+.header-secondary { color: black; }   /* Section header; azzurro intenso */
 .header-tertiary { color: black; }    /* Subheaders */
 
 /* Paragraph / content colors */
@@ -54,6 +54,7 @@ a {
 
 /* Misc */
 .navbar-dark .navbar-nav .nav-link { color: white; } /* keep navbar links visible */
+
 
 
 
