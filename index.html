@@ -4,58 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Blog - Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">My Blog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="posts.html">Posts</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body>
+  <!-- Navbar placeholder -->
+  <div id="navbar"></div>
 
-  <!-- Main Content -->
-<div class="container mt-5">
-  <!-- Main Header -->
-  <h1 class="header-primary">Welcome to My Blog</h1>
-    <!-- Intro Paragraph -->
+  <div class="container mt-5">
+    <h1 class="header-primary">Welcome to My Blog</h1>
     <p class="content-primary">Hello, I'm Elisa. This is my personal space to practice front-end development and share posts.</p>
-  <!-- Post List -->
-  <ul>
-    <li>
-      <a href="post1.html" class="link-primary">Example Post 1</a>
-      – <span class="content-secondary">Aug 27, 2025</span>
-    </li>
-    <li>
-      <a href="post2.html" class="link-secondary">Example Post 2</a>
-      – <span class="content-secondary">Aug 28, 2025</span>
-    </li>
-  </ul>
-</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <h2 class="header-secondary mt-4">Latest Posts</h2>
+    <ul>
+      <li><a href="post1.html" class="link-primary">Example Post 1</a> – <span class="content-secondary">Aug 27, 2025</span></li>
+      <li><a href="post2.html" class="link-secondary">Example Post 2</a> – <span class="content-secondary">Aug 28, 2025</span></li>
+    </ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => { document.getElementById("navbar").innerHTML = data; });
+  </script>
 </body>
 </html>
-
-
-
-
-  
-
-
-
-
-
-
