@@ -53,7 +53,8 @@ a {
 .link-primary:hover, .link-secondary:hover { text-decoration: underline; }
 
 /* Misc */
-.navbar-dark .navbar-nav .nav-link { color: black; } /* keep navbar links visible */
+.navbar-dark .navbar-nav .nav-link { color: white; } /* keep navbar links visible */
+
 
 
 
